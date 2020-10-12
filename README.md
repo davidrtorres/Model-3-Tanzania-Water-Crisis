@@ -14,7 +14,7 @@ The contents of this repository detail an analysis of the module one project. Th
 Business problem:
 Here is where you state the business problem you were trying to solve
 
-Data<br>
+\emph{Data}<br>
 The data was obtained from from Taarifa and the Tanzanian Ministry of Water.  The dataset consists of 59400 rows and 40 features.  The features range from which entities funded construction of the water wells, location of the wells, regions, quantity of water in wells to quality of water.  The dataset also included a target label which consisted of 3 categories regarding the operational status of the water wells: well is functioning, non-functioning, functioning but needs repairs.  
 
 
