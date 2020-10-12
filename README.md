@@ -1,7 +1,7 @@
 
 # Module 3 Final Project
-test
-Title that recommends an action
+
+\emph(The Operational Status of Water Points in the Country of Tanzania)
 Subtitle describing the analysis
 Authors: Student1, Student2, Student3
 
