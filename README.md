@@ -15,7 +15,8 @@ Business problem:
 Here is where you state the business problem you were trying to solve
 
 Data
-Data can include source and high-level description (e.g. # obs)
+The data was obtained from from Taarifa and the Tanzanian Ministry of Water.  The dataset consists of 59400 rows and 40 features.  The features range from which entities funded construction of the water wells, location of the wells, regions, quantity of water in wells to quality of water.   
+
 
 Methods
 descriptive analysis
