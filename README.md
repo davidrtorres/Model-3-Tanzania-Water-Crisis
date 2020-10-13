@@ -16,32 +16,16 @@ The objective is to build classification models which based on certain features 
 ### Methods
 The classification models I created had an accuracy score that ranged from 58% to 78%.  The Logistic Regression models didn't perform particularly well.  Without default parameters the logisitc regression model's accuracy was 58% and with parameters it was 62%.  With parameters the logistic regression was only 55% accurate in predicting whether a well was non-functioning.  When I created a GridSearch with Logistic Regression the model improved a little to 59% in predciting that a well was non-functioning.  
 
-
-key relevant findings from exploritory data analysis for mod 1, will be more involved in future mod
-Results
-Here are examples of how to embed images from your sub-folder
-Visual 1
-graph1
-
+I created visualizations to show the distrbution of the data and to show how the features are related to the target.  This is impotant because it shows what can be 
+expected when we look at how, for example, a funder relates to the target.  We can see from the graph that certain funders will have more functional well points and some will have fewer.  These graphs give us immediate insights of what can be expected from the data.  If I needto know quickly which regions have the most non-functioning wells the graphs will demonstrate this. 
 Sentence about visualization.
 
-Visual 2
-graph2
+I used the following prcoess to create the model and provide recommendations about the data:<br>
+1) Obtained the data
+2) Conducted Exploratory data analysis
+3) Preprocessed the data
+4) Created classification models
+5) Used metrics to evaluate the models' overall performance.
 
-Sentence about visualization.
-
-Recommendations:
-More of your own text here
-
-Limitations & Next Steps
-More of your own text here
-
-For further information
-Please review the narrative of our analysis in our jupyter notebook or review our presentation
-
-For any additional questions, please contact **email, email, email)
-
-Repository Structure:
-Here is where you would describe the structure of your repoistory and its contents, for exampe:
 
 
