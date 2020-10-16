@@ -1,4 +1,4 @@
-Module 3 Final Project
+### Module 3 Final Project
 
 The Operational Status of Water Points in the Country of Tanzania
 Only 57 percent of Tanzania’s population of 57 million has access to an improved source of safe water. People living under these circumstances, particularly women and girls, spend a significant amount of time traveling long distances to collect water. In Tanzania, demand for water is high and the market for water products (storage tanks, pipes, rain harvesting facilities, etc.) and suppliers is increasing.
