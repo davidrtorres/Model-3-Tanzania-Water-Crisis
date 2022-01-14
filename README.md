@@ -7,10 +7,10 @@ The Tanzania Ministry of Water is seeking to solve the ongoing water crisis in T
 ## Business Problem and Objective:
 The Tanzanian Water Ministry is seeking to solve the water crisis in Tanzania by increasing the number of functioning wells.  Predictive models can be used to aid in solving this problem.  The objective is to build classification models which will predict the functionality of the water wells in Tanzania.  I will concentrate on the models' accuracy in predicting whether the wells are functioning, not functioning or functioning but in need of repairs.  These predictions will provide the Tanzania Minstry of Water with information regarding the overall status of the wells.  I will also include an analysis of the data to provide information regarding the relationship between various features such as funders and waters and the functionality of the wells.  The analysis will provide some insights regarding whether certain features are contributing to the non-functioning of the wells.  Also, which areas to concentrate on in order to increase the number of functioning wells.
 
-## The Data
+## The Data:
 The dataset was obtained from the Tanzania Ministry of Water and Taarifa.  Taarifa is an open-source API.  The dataset consists of 59,400 rows and 40 features.  The features range from which entities funded construction of the water wells, location of the wells to quality of the water.  The dataset also includes a target label which consists of 3 categories regarding the functionality of the water wells: functioning, non-functioning, functioning but needs repairs.  The data types are numeric and objects.<br>
 
-## Methods
+## Methods:
 I used the OSEMN framework for this project.
 1.  I obtained the data as indicated above.
 2.  Scrubbed the data.  There were 3 main issues with the data that needed to be addressed:
