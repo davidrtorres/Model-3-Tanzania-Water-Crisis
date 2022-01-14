@@ -1,7 +1,9 @@
-### Module 3 Final Project
+### Introduction
 
-The Operational Status of Water Points in the Country of Tanzania
-Only 57 percent of Tanzania’s population of 57 million has access to an improved source of safe water. People living under these circumstances, particularly women and girls, spend a significant amount of time traveling long distances to collect water. In Tanzania, demand for water is high and the market for water products (storage tanks, pipes, rain harvesting facilities, etc.) and suppliers is increasing.
+According to the World Health Organization, one out of six people in Tanzania lacks access to safe drinking water. Women and children must walk long distances to find water. In rural Tanzania residents walk for 2 to 3 km daily in search of water from public taps  or natural streams. They must carrying heavy containers for the water on their heads which weigh about 20 to 25 litres. When the residents find water they will find long lines at the point of water tap or boreholes where they must wait hours for their turn. The water shortage has been caused by population growth, high level consumption and climate change which has reduced the resources of water. Water shortages lead to poor sanitation, lack of safe drinking water, and overcrowding at water sources. projectzawadi.org.
+
+The Tanzanian Ministry of Water is seeking to solve the ongoing water crisis in Tanzania by increasing the number of functioning water wells. It is crucial to the health and safety of communities that its residents have access to drinking water. Tanzania has a lot of water wells that are non-functioning or in need of repair. Predictive modeling can be used to aid in solving this problem.
+
 
 ### Business problem:
 The Tanzanian Water Ministry is seeking to solve the water crisis in Tanzania by increasing the number of functioning water wells. Build classification models Here is where you state the business problem you were trying to solve. Tanzania has a lot of water wells that are non-functioning or in eed of repair.
