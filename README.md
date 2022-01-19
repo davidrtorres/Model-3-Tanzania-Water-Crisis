@@ -29,6 +29,9 @@ I wanted to explore whether the quality of the water impacted a well's functiona
 
 ![quality_group image](quality_group.png)
 
+
+![region_code image](region_code.png)
+
 ## Modeling
 
 ## Findings
