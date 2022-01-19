@@ -33,7 +33,7 @@ I wanted to explore whether the quality of the water impacted a well's functiona
 ## Findings
 1.  The RandomForestClassifier was the highest performing model with an accuracy of 79%.
 2.  In EDA we explored the relationship between important features and the target.  Regarding payment, it appears that whether payment is required to use well does it does impact functionality.  The largest group of wells is no payment where 11379 of the wells are functioning and 12062 are not functioning. The wells where some payment is required function better. For category 'annually' far more wells were functioning (2740), than non-functioning(655) and 247 in need of repair. Where a 'monthly fee' is required there were 5482 functioning wells, 1891 non-functioing wells and 927 in need of repairs.
-<br>
+
 3.  Water quality does impact functionality of well.  If the water quality is good there is a higher probability that well is functioning.  However, even if water quality is good there still a good chance it's non-functioning.  Water quality of good is by far the largest group of wells and constitutes 50,818 of the wells.  Of this category around 28,760 are functioning, 18154 are non-functioning and 18154 in need of repairs.  Water quality is a good status check so governments and organizations know whether they have to deal with just functionality status and/or water quality.<br>
 4.  Age of well does impact functioning of the well. Most were built within the last 16 years and the majority within these years were functioning but still a high number not functioning.<br>
 5.  Longitude and latitude were the feature that had the most importance on the model in making predictions.
