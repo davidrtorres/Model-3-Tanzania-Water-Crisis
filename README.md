@@ -36,6 +36,8 @@ By grouping the features we can see how region and water quality are realted to 
 Region 8 has among the lowest number of wells and most are non-functioning.  We can see that most of the water quality is 'salty' which isn't good.  Whereas, region 11 has the most number of wells and 4120 of the wells have 'good' water quality which as explained below contributes to a functioning well. 
 ![region_code image](region_code.png)
 
+![region_image](region_.png)
+
 ## Modeling
 
 ## Findings
