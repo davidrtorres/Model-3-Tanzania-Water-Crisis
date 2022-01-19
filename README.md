@@ -24,7 +24,7 @@ I used the OSEMN framework for this project.
 5.  Interpret the data.<br> 
 
 ## Exploratory Data Analysis
-![This is an image](/assets/images/quality_group.png)
+![This is an image](quality_group.png)
 
 ## Modeling
 
