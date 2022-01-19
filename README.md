@@ -17,7 +17,7 @@ I used the OSEMN framework for this project.
     NaN values - several features had NaN values.  I addressed the NaN values by either imputing the NaN values with the median value of the feature or renamining       the category 'Unknown'.<br>
     Duplicate Features - Several features are duplicates of other features.  The duplicates were dropped from the dataset. 
     Feature categories with value of 0.  If the 0 value constituted a large percentage of the of feature I dropped the feature.  However, in some instances like         construction 0 was 34% of the values.  I imputed the median value of the feature for the 0 value.<br>
-3.  Eploratory Data Analysis.  I created plots to see the relationship between certain features and the target variable.  I conducted EDA to see if we could get
+3.  Exploratory Data Analysis.  I created plots to see the relationship between certain features and the target variable.  I conducted EDA to see if we could get
     insights on factors like whether the location of well or quality of water had an impact on the functionality of a well.  Are there any patterns or trends in the     data?<br>
 4.  I built Logistic Regression and KNearest Neighbors models to make the predictions.  I used the metrics accuracy along with the Classification Report and
     Confusion Matrix to evaluate the performance of the models.  I utilized the GridSearchCV method for hyperparameter optimization.<br>   
