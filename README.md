@@ -1,6 +1,6 @@
 ## Introduction:
 
-According to the World Health Organization, one out of six people in Tanzania lack access to safe drinking water.  Women and children must walk long distances to find water.  In rural Tanzania resdients walk 2 to 3 km daily in search of water from public sources or natural streams.  They must carry heavy containers for the water on their heads which weigh about 20 to 25 liters.  When the residents find the water they must wait in line at the water source or boreholes for hours for their turn.  The water shortage has been caused by population growth, high level consumption and climate change which has reduced the water resources.  Water shortages lead to poor sanitation, lack of safe drinking water and overcrowding at the water sources. 
+According to the World Health Organization, one out of six people in Tanzania lack access to safe drinking water.  Women and children are mainly responsible for obtaining water and must walk long distances to find the water.  In rural Tanzania resdients walk 2 to 3 km daily in search of water from public sources or natural streams.  They must carry heavy containers for the water on their heads which weigh about 20 to 25 liters.  When the residents find the water they must wait in line at the water source or boreholes for hours for their turn.  The water shortage has been caused by population growth, high level consumption and climate change which has reduced the water resources.  Water shortages lead to poor sanitation, lack of safe drinking water and overcrowding at the water sources. 
 
 The Tanzania Ministry of Water is seeking to solve the ongoing water crisis in Tanzania by increasing the number of functioning water wells.  It is crucial to the health and safety of communities that its residents have access to safe drinking water.  Tanzania has a lot of water wells that are non-functioningor in need of repair. 
 
@@ -17,10 +17,26 @@ I used the OSEMN framework for this project.
     NaN values - several features had NaN values.  I addressed the NaN values by either imputing the NaN values with the median value of the feature or renamining       the category 'Unknown'.<br>
     Duplicate Features - Several features are duplicates of other features.  The duplicates were dropped from the dataset. 
     Feature categories with value of 0.  If the 0 value constituted a large percentage of the of feature I dropped the feature.  However, in some instances like         construction 0 was 34% of the values.  I imputed the median value of the feature for the 0 value.<br>
-3.  Eploratory Data Analysis.  I created plots to see the relationship between certain features and the target variable.  I conducted EDA to see if we could get
+3.  Exploratory Data Analysis.  I created plots to see the relationship between certain features and the target variable.  I conducted EDA to see if we could get
     insights on factors like whether the location of well or quality of water had an impact on the functionality of a well.  Are there any patterns or trends in the     data?<br>
-4.  I built Logistic Regression and KNearest Neighbors models to make the predictions.  I used the metric accuracy along with the Classification Report and
+4.  I built Logistic Regression and KNearest Neighbors models to make the predictions.  I used the metrics accuracy along with the Classification Report and
     Confusion Matrix to evaluate the performance of the models.  I utilized the GridSearchCV method for hyperparameter optimization.<br>   
-5.  Interpret the data.<br>    
+5.  Interpret the data.<br> 
+
+## Exploratory Data Analysis
+I performed EDA on the dataset to get insights about the data overall and to see how the features related to the target labels.  Here are some highlights of features for which I performed an analysis.<br>  
+I wanted to explore whether the quality of the water impacted a well's functionality.  The below plot shows that there are 6 categories for water quality. The majority of the wells are in the category of good which constitutes 50,818 of the wells. Of this category around 28,760 are functioning, 18154 are non-functioning and 18154 in need of repairs. If the well has 'good' water quality there is a higher chance that it is functioning but there is still a high probability it's not functioning. If the water quality is salty or unknown it's probably non-functioning. This information is critcal for the government and organizations to know which wells have good water quality and just need the functioning issue addressed and which ones require not only the functioning issue but also the water quality issue which is completely different and more complicated issue.
+
+![quality_group image](quality_group.png)
+
+## Modeling
+
+## Findings
+1.  The RandomForestClassifier was the highest performing model with an accuracy of 79%.
+2.  In EDA we explored the relationship between important features and the target.  Regarding payment, it appears that whether payment is required to use well does it does impact functionality.  The largest group of wells is no payment where 11379 of the wells are functioning and 12062 are not functioning. The wells where some payment is required function better. For category 'annually' far more wells were functioning (2740), than non-functioning(655) and 247 in need of repair. Where a 'monthly fee' is required there were 5482 functioning wells, 1891 non-functioing wells and 927 in need of repairs.
+
+3.  Water quality does impact functionality of well.  If the water quality is good there is a higher probability that well is functioning.  However, even if water quality is good there still a good chance it's non-functioning.  Water quality of good is by far the largest group of wells and constitutes 50,818 of the wells.  Of this category around 28,760 are functioning, 18154 are non-functioning and 18154 in need of repairs.  Water quality is a good status check so governments and organizations know whether they have to deal with just functionality status and/or water quality.<br>
+4.  Age of well does impact functioning of the well. Most were built within the last 16 years from the most recent year of the dataset and the majority within these years were functioning but still a high number are not functioning.<br>
+5.  Longitude and latitude were the feature that had the most importance on the model in making predictions.
     
 
