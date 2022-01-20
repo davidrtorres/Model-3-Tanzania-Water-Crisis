@@ -42,7 +42,10 @@ Region 8 has among the lowest number of wells and most are non-functioning.  We 
 I created KNearest Neighbors and Random Forest models for the multi-class classification problem.  I used the method GridSearchCV for hyperparameter optimization.
 The metrics used to evaluate the model's performance was accuracy, Classification Report and Confusion Matrix.  The RandomForestClassifier performed the best with a 79% accuracy.
 
-![region_image](classification_report.png)
+<p align="center">
+  <img width="460" height="300" src="classification_report.png">
+</p>
+
 
 ## Findings
 1.  The RandomForestClassifier was the highest performing model with an accuracy of 79%.
