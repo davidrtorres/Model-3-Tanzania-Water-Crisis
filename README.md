@@ -41,6 +41,7 @@ Region 8 has among the lowest number of wells and most are non-functioning.  We 
 ## Modeling
 I created KNearest Neighbors and Random Forest models for the multi-class classification problem.  I used the method GridSearchCV for hyperparameter optimization.
 The metrics used to evaluate the model's performance was accuracy, Classification Report and Confusion Matrix.  The RandomForestClassifier performed the best with a 79% accuracy.
+Precision is  the ratio between the True Positives and all the Positives. For our problem statement, that would be the measure of wells that were correctly predicted  as functioning out of all the wells that are actually functioning.  When the model predicts that the well is functioning, it is correct around 82% of the time.  This is important because an organization needs to be able to rely on our predictions and does’t want to start spending time and money on repairing a well because the model predicted it as non-functioning when in fact it's actually functioning.  The model has done a pretty good job with this prediction.
 
 <p align="center">
   <img width="460" height="300" src="classification_report.png">
