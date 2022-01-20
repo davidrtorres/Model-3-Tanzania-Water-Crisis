@@ -1,6 +1,6 @@
 ## Introduction:
 
-According to the World Health Organization, one out of six people in Tanzania lack access to safe drinking water.  Women and children are mainly responsible for obtaining water and must walk long distances to find the water.  In rural Tanzania resdients walk 2 to 3 km daily in search of water from public sources or natural streams.  They must carry heavy containers for the water on their heads which weigh about 20 to 25 liters.  When the residents find the water they must wait in line at the water source or boreholes for hours for their turn.  The water shortage has been caused by population growth, high level consumption and climate change which has reduced the water resources.  Water shortages lead to poor sanitation, lack of safe drinking water and overcrowding at the water sources. 
+According to the World Health Organization, one out of six people in Tanzania lack access to safe drinking water.  Women and children are mainly responsible for obtaining water and must walk long distances to find the water.  In rural Tanzania residents walk 2 to 3 km daily in search of water from public sources or natural streams.  They must carry heavy containers for the water on their heads which weigh about 20 to 25 liters.  When the residents find the water they must wait in line at the water source or boreholes for hours for their turn.  The water shortage has been caused by population growth, high level consumption and climate change which has reduced the water resources.  Water shortages lead to poor sanitation, lack of safe drinking water and overcrowding at the water sources. 
 
 The Tanzania Ministry of Water is seeking to solve the ongoing water crisis in Tanzania by increasing the number of functioning water wells.  It is crucial to the health and safety of communities that its residents have access to safe drinking water.  Tanzania has a lot of water wells that are non-functioningor in need of repair. 
 
@@ -34,13 +34,14 @@ Does region_code impact functionality?
 By grouping the features we can see how region and water quality are realted to functionality.  It's crucial to see which districts have the highest number of wells and their status.  The plot gives us a quick summary of the number of wells in each district and their status.  Region 11 has highest number of wells with 5300; around 4,200 are functioning, around 1,000 are non-functioning and around 100 are in need of repairs.  Region 17 has the second largest with 5,100 wells; around 3,000 are functioning wells and 1,500 are non-functioning.  In constrast it  shows that regions 8,9,40, 60, 80, 90 and 99 have very few wells and most are non-functioning.
 
 Region 8 has among the lowest number of wells and most are non-functioning.  We can in the below chart when we grouped 'target', 'region_code','quality_group' for functioing we see that most of the water quality is 'salty' which isn't good.  Whereas, region 11 has the most number of wells and 4120 of the wells have 'good' water quality which as explained below contributes to a functioning well. 
-![region_code image](region_code.png)
+![region_code image](region_code_git.png)
 
 ![region_image](region.png style=centerme)
 
 ## Modeling
 I created KNearest Neighbors and Random Forest models for the multi-class classification problem.  I used the method GridSearchCV for hyperparameter optimization.
 The metrics used to evaluate the model's performance was accuracy, Classification Report and Confusion Matrix.  The RandomForestClassifier performed the best with a 79% accuracy.
+Precision is  the ratio between the True Positives and all the Positives. For our problem statement, that would be the measure of wells that were correctly predicted  as functioning out of all the wells that are actually functioning.  When the model predicts that the well is functioning, it is correct around 82% of the time.  This is important because an organization needs to be able to rely on our predictions and does’t want to start spending time and money on repairing a well because the model predicted it as non-functioning when in fact it's actually functioning.  The model has done a pretty good job with this prediction.
 
 <p align="center">
   <img width="460" height="300" src="classification_report.png">
@@ -53,6 +54,6 @@ The metrics used to evaluate the model's performance was accuracy, Classificatio
 
 3.  Water quality does impact functionality of well.  If the water quality is good there is a higher probability that well is functioning.  However, even if water quality is good there still a good chance it's non-functioning.  Water quality of good is by far the largest group of wells and constitutes 50,818 of the wells.  Of this category around 28,760 are functioning, 18154 are non-functioning and 18154 in need of repairs.  Water quality is a good status check so governments and organizations know whether they have to deal with just functionality status and/or water quality.<br>
 4.  Age of well does impact functioning of the well. Most were built within the last 16 years from the most recent year of the dataset and the majority within these years were functioning but still a high number are not functioning.<br>
-5.  Longitude and latitude were the feature that had the most importance on the model in making predictions.
+5.  Longitude and latitude were the features that had the most importance on the model in making predictions.
     
 
