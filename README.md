@@ -36,9 +36,16 @@ By grouping the features we can see how region and water quality are realted to 
 Region 8 has among the lowest number of wells and most are non-functioning.  We can in the below chart when we grouped 'target', 'region_code','quality_group' for functioing we see that most of the water quality is 'salty' which isn't good.  Whereas, region 11 has the most number of wells and 4120 of the wells have 'good' water quality which as explained below contributes to a functioning well. 
 ![region_code image](region_code.png)
 
-![region_image](region.png)
+![region_image](region.png style=centerme)
 
 ## Modeling
+I created KNearest Neighbors and Random Forest models for the multi-class classification problem.  I used the method GridSearchCV for hyperparameter optimization.
+The metrics used to evaluate the model's performance was accuracy, Classification Report and Confusion Matrix.  The RandomForestClassifier performed the best with a 79% accuracy.
+
+<p align="center">
+  <img width="460" height="300" src="classification_report.png">
+</p>
+
 
 ## Findings
 1.  The RandomForestClassifier was the highest performing model with an accuracy of 79%.
