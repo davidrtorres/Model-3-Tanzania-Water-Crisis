@@ -43,7 +43,7 @@ The metrics used to evaluate the model's performance were accuracy, Classificati
 Precision is  the ratio between the True Positives and all the Positives. For our problem statement, that would be the measure of wells that were correctly predicted  as functioning out of all the wells that are actually functioning.  When the model predicts that the well is functioning, it is correct around 82% of the time.  This is important because an organization needs to be able to rely on our predictions and does’t want to start spending time and money on repairing a well because the model predicted it as non-functioning when in fact it's actually functioning.  The model has done a pretty good job with this prediction.
   
 <p align="center">  
-    <img src="/data/classification_report.png" width="700" height="500">
+    <img src="/data/classification_report.png" width="500" height="300">
 </p>
 
 
