@@ -45,8 +45,6 @@ Precision is  the ratio between the True Positives and all the Positives. For ou
 <p align="center">  
     <img src="/data/classification_report.png" width="500" height="300">
 </p>
-
-
 ## Findings
 1.  The RandomForestClassifier was the highest performing model with an accuracy of 79%.
 2.  In EDA we explored the relationship between important features and the target.  Regarding payment, it appears that whether payment is required to use well does it does impact functionality.  The largest group of wells is no payment where 11379 of the wells are functioning and 12062 are not functioning. The wells where some payment is required function better. For category 'annually' far more wells were functioning (2740), than non-functioning(655) and 247 in need of repair. Where a 'monthly fee' is required there were 5482 functioning wells, 1891 non-functioing wells and 927 in need of repairs.
