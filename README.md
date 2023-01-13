@@ -37,7 +37,9 @@ Region 8 has among the lowest number of wells and most are non-functioning.  We 
 <p align="center">  
     <img src="/data/region_code.png" width="600" height="400">
 </p>
-
+<p align="center">  
+    <img src="/data/groupby_target_quality.png" width="600" height="400">
+</p>
 
 ## Modeling
 I created KNearest Neighbors and Random Forest models for the multi-class classification problem.  I used the method GridSearchCV for hyperparameter optimization.
