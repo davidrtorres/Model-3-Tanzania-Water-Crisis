@@ -29,9 +29,6 @@ I wanted to explore whether the quality of the water impacted a well's functiona
 
 <img src="/data/water_quality.png" width="700" height="500">
 
-![quality_group image](water_quality_git.png)
-
-
 Does region_code impact functionality?
 By grouping the features we can see how region and water quality are realted to functionality.  It's crucial to see which districts have the highest number of wells and their status.  The plot gives us a quick summary of the number of wells in each district and their status.  Region 11 has highest number of wells with 5300; around 4,200 are functioning, around 1,000 are non-functioning and around 100 are in need of repairs.  Region 17 has the second largest with 5,100 wells; around 3,000 are functioning wells and 1,500 are non-functioning.  In constrast it  shows that regions 8,9,40, 60, 80, 90 and 99 have very few wells and most are non-functioning.
 
