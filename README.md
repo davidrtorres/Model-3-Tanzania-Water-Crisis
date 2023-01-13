@@ -36,7 +36,7 @@ Region 8 has among the lowest number of wells and most are non-functioning.  We 
 ![region_code image](region_code_git.png)
 
 <p align="center">  
-    <img src="/data/region_code_git.png" width="500" height="300">
+    <img src="/data/region_code.png" width="500" height="300">
 </p>
 
 
